@@ -1,12 +1,14 @@
 # Sentiment analysis on WHO's tweets using Python (Tweep API, Pandas and TextBlob)
 
+* This is a very simple way to implement Natural Language Processing using the TextBlob lib. Here a Twitter App was created to conduct a Sentiment Analysis of the tweets of the World Health Organization ([@who](https://twitter.com/who)).
+
+
 > #### DESCRIPTION:
 >In this repositorie:
 >1. Extract twitter data using tweepy and handle it using Pandas.
 >2. Do some basic statistics and visualizations with Numpy, Matplotlib, Seaborn and WordCloud.
 >3. Do sentiment analysis of extracted (WHO's) tweets using TextBlob.
 
-This is a very simple way to implement Natural Language Processing using the TextBlob lib. Here a Twitter App was created to conduct a Sentiment Analysis of the tweets of the World Health Organization ([@who](https://twitter.com/who)).
 
 ```
 Tweets obtained: 1200.
@@ -27,9 +29,20 @@ The full statement: https://t.co/tLkdaJm0Q3
 I assured them that we wi… https://t.co/gko24hSFJp
 ```
 
+## A Word Cloud with the most frequent words in WHO Tweets
+
+
 ![Brainstorm image](/img/brainstorm.png)
 
 ## Relationship of the number of Likes and Retweets
 
 
 ![likes_re_view image](/img/likes_re_view.png)
+
+## Results from the sentiment analysis of Tweets
+
+```
+Positive tweets: 44.08%
+Neutral tweets: 41.75%
+Negative tweets: 14.17%
+```
