@@ -4,7 +4,13 @@
 
 
 > #### DESCRIPTION:
+>
+>>* Install libs:
+>```
+>conda install -c conda-forge tweepy wordcloud textblob
+>```
 >In this repositorie:
+
 >1. Extract twitter data using tweepy and handle it using Pandas.
 >2. Do some basic statistics and visualizations with Numpy, Matplotlib, Seaborn and WordCloud.
 >3. Do sentiment analysis of extracted (WHO's) tweets using TextBlob.
@@ -13,20 +19,18 @@
 ```
 Tweets obtained: 1200.
 The first 5 tweets:
-WHO declared #COVID19 a Public Health Emergency of International Concern on 30 January 2020, when there were less t… https://t.co/OkJ1hmSV1Z
+The full briefing on #COVID19 by @DrTedros 👇
+https://t.co/NqhFrJJTbu
 
-#OpenWHO, the free, open-access learning platform for health emergencies, now offers 9 online courses related to… https://t.co/E9OUA9vWxX
+"Only together can we get through the #COVID19 pandemic. In national unity and global solidarity"-@DrTedros
 
-@palkisu @DrTedros .@palkisu we don't see you online. If you join, we will take your question.
-https://t.co/ZTkjLQ4iKo
+"This new partnership is another great example of solidarity that builds on the solidarity flights, solidarity tria… https://t.co/CqUhjsJq8u
 
-"We’re all in this together. And we will only get through it together"-@DrTedros #COVID19
+"#COVID19 has exposed the uneven distribution of life-saving medical equipment across the world.
 
-The full statement: https://t.co/tLkdaJm0Q3
+Tomorrow, the Tec… https://t.co/iX4RbfPKZS
 
-"Earlier today I spoke to health ministers from across the Eastern Mediterranean region.
-
-I assured them that we wi… https://t.co/gko24hSFJp
+"Even relatively short-term interruptions to treatment pose a significant threat to a person’s health and potential… https://t.co/dvVEda2jLw
 ```
 
 ## A Word Cloud with the most frequent words in WHO Tweets
@@ -42,7 +46,7 @@ I assured them that we wi… https://t.co/gko24hSFJp
 ## Results from the sentiment analysis of Tweets
 
 ```
-Positive tweets: 44.08%
-Neutral tweets: 41.75%
-Negative tweets: 14.17%
+Positive tweets: 43.42%
+Neutral tweets: 45.00%
+Negative tweets: 11.58%
 ```
